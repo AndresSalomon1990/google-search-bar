@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google like search bar</title>
+
+    <link rel="stylesheet" href="/style/index.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <img src="/assets/dev-&-roll-logo.png" class="logo" />
+      <div class="search-bar-container">
+        <div class="search-bar">
+          <input type="text" autocomplete="off" id="search-input" />
+          <div class="division-line" id="division-line"></div>
+          <ul class="autocomplete-box" id="autocomplete-box">
+            <!-- AUTOCOMPLETE SUGGESTIONS RESULTS -->
+          </ul>
+        </div>
+
+        <!-- ICONS -->
+        <i class="search-icon" id="search-icon"></i>
+        <i class="cancel-search-icon" id="cancel-search-icon"></i>
+      </div>
+    </div>
+
+    <script src="/js/mock-api.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
